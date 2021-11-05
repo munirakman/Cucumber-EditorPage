@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         glue = "stepdefinitions",
         tags = "@editor",
 
-        dryRun = true
+        dryRun = false
         // dryrun = true dediğimizde testi çalıştırmadan bize  eksik adımı verir.
         // dryRun = false yaparsak testi çalıştırır, eksik bir adımla karşılaşırsa
         // test failed olur ve bize eksik adimi raporlar
